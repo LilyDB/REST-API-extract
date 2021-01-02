@@ -143,7 +143,7 @@ if __name__=="__main__":
   password='abc'
 
   customer_id_list=(9167265,9595137,9583720,9834466)
-  c = test(typeid, customer_id_list, start_date, end_date, user, password)
+  c = get_rest_data(typeid, customer_id_list, start_date, end_date, user, password)
   c.get_all_track()
 
 
